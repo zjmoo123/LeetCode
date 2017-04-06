@@ -39,11 +39,8 @@ int HammingDistance::GetHammingDistance(int x, int y)
 		}
 		z++;
 	}
-	cout << "z: " << z << endl;
 	for (int i = 1; i <= z; i++)
 	{
-		cout << "vx: " << vx.front() << endl;
-		cout << "vy: " << vy.front() << endl;
 		if (vx.front() != vy.front())
 		{
 			m++;
